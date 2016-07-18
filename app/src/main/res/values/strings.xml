@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImageGallery</string>
+    <string name="loading_fail">加载失败</string>
+</resources>
