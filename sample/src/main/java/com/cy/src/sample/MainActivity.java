@@ -1,18 +1,18 @@
-package com.cy.src.gallery;
+package com.cy.src.sample;
 
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
+import com.cy.src.gallery.PhotoViewActivity;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
-public class TestActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test);
-
+        setContentView(R.layout.activity_main);
         Fresco.initialize(getApplication());
         Uri uris[] = new Uri[]{
                 Uri.parse("http://f.hiphotos.baidu.com/image/h%3D200/sign=e648595ff01986185e47e8847aed2e69/0b46f21fbe096b63a377826e04338744ebf8aca6.jpg"),
